@@ -5,7 +5,7 @@ based on original Practicum Project Web_Project_1, Sprint 2, Jan 28, 2022
 refactored using
 React
 Bootstrap
-Chakra
+Chakra for UI
 
 Description
 

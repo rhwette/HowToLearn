@@ -21,7 +21,7 @@ function App() {
                               "footer footer"
                               `}
       >
-        <GridItem area="header" bg="coral">
+        <GridItem area="header" bg="white">
           <Header />
         </GridItem>
         <GridItem area="intro" bg="lightblue">

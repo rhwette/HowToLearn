@@ -1,11 +1,23 @@
 // import React from 'react';
 import { Grid, GridItem, Button } from '@chakra-ui/react';
 import Header from './components/Header';
+import Intro from './components/Intro';
+import { useState } from 'react';
 
 function App() {
+  const [isVisible, setVisibility] = useState(false);
+
+  const handleClick = () => {
+    console.log(isVisible);
+    setVisibility(true);
+    console.log(isVisible);
+  };
+
+  console.log(isVisible);
+
   return (
     <>
-      <Button>test</Button>
+      <Button onClick={handleClick}>test</Button>
       <Grid
         templateAreas={` "header header"
                               "intro intro"
@@ -24,9 +36,11 @@ function App() {
         <GridItem area="header" bg="white">
           <Header />
         </GridItem>
-        <GridItem area="intro" bg="lightblue">
-          intro
+
+        <GridItem area="intro" bg="white">
+          <Intro />
         </GridItem>
+
         <GridItem area="problems" bg="lightgreen">
           problems
         </GridItem>

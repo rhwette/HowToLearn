@@ -4,7 +4,7 @@ import logo from '../assets/logo.png';
 const Header = () => {
   return (
     <HStack>
-      <Image src={logo} boxSize="60px" />
+      <Image m="10px" src={logo} boxSize="60px" />
     </HStack>
   );
 };

@@ -2,6 +2,8 @@
 import { Grid, GridItem, Button } from '@chakra-ui/react';
 import Header from './components/Header';
 import Intro from './components/Intro';
+import Problems from './components/Problems';
+
 import { useState } from 'react';
 
 function App() {
@@ -41,9 +43,10 @@ function App() {
           <Intro />
         </GridItem>
 
-        <GridItem area="problems" bg="lightgreen">
-          problems
+        <GridItem area="problems" bg="white">
+          <Problems />
         </GridItem>
+
         <GridItem area="techniques" bg="lightblue">
           techniques
         </GridItem>

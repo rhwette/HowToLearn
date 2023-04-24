@@ -6,6 +6,7 @@ import Techniques from './components/Techniques';
 import Ted from './components/Ted';
 import Oakley from './components/Oakley';
 import Feynman from './components/Feynman';
+import FactsAndFigs from './components/FactsAndFigs';
 
 function App() {
   return (
@@ -53,9 +54,10 @@ function App() {
           <Feynman />
         </GridItem>
 
-        <GridItem area="factsandfigs" bg="blue">
-          factsandfigs
+        <GridItem area="factsandfigs" bg="white">
+          <FactsAndFigs />
         </GridItem>
+
         <GridItem area="kahan" bg="purple">
           kahan
         </GridItem>

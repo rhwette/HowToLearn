@@ -1,0 +1,9 @@
+.video__iframe {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    width:515px;
+    height: 316px;
+    /* margin-bottom: 25px; */
+    /* transform: translateY(65px); */
+  }

@@ -5,6 +5,7 @@ import Problems from './components/Problems';
 import Techniques from './components/Techniques';
 import Ted from './components/Ted';
 import Oakley from './components/Oakley';
+import Feynman from './components/Feynman';
 
 function App() {
   return (
@@ -48,8 +49,8 @@ function App() {
           <Oakley />
         </GridItem>
 
-        <GridItem area="feynman" bg="green">
-          feynman
+        <GridItem area="feynman" bg="white">
+          <Feynman />
         </GridItem>
 
         <GridItem area="factsandfigs" bg="blue">

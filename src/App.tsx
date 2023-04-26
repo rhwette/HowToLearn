@@ -10,6 +10,7 @@ import FactsAndFigs from './components/FactsAndFigs';
 import Kahan from './components/Kahan';
 import Principles from './components/Principles';
 import Resources from './components/Resources';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -74,7 +75,7 @@ function App() {
         </GridItem>
 
         <GridItem area="footer" bg="black">
-          footer
+          <Footer />
         </GridItem>
       </Grid>
     </>

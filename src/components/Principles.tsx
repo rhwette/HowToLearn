@@ -1,4 +1,6 @@
-import { OrderedList, ListItem, Text, Center } from '@chakra-ui/react';
+import { OrderedList, ListItem, Text, Center, Image } from '@chakra-ui/react';
+import triangleImage from '../assets/kaufman-triangle.svg';
+import './Principles.css';
 
 const Principles = () => {
   return (
@@ -8,7 +10,6 @@ const Principles = () => {
           textAlign="center"
           pt="50px"
           px="50px"
-          //   color="#000"
           color="#D3D3D3"
           fontSize="5xl"
           fontWeight="bold"
@@ -84,7 +85,7 @@ const Principles = () => {
           <ListItem
             listStyleType="decimal"
             fontWeight="bold"
-            color="D3D3D3"
+            color="#D3D3D3"
             fontSize="xl"
           >
             <Text fontWeight={'normal'} ml={'10px'}>
@@ -96,7 +97,7 @@ const Principles = () => {
           <ListItem
             listStyleType="decimal"
             fontWeight="bold"
-            color="D3D3D3"
+            color="#D3D3D3"
             fontSize="xl"
           >
             <Text fontWeight={'normal'} ml={'10px'}>
@@ -108,7 +109,7 @@ const Principles = () => {
           <ListItem
             listStyleType="decimal"
             fontWeight="bold"
-            color="D3D3D3"
+            color="#D3D3D3"
             fontSize="xl"
           >
             <Text fontWeight={'normal'} ml={'10px'}>
@@ -120,7 +121,7 @@ const Principles = () => {
           <ListItem
             listStyleType="decimal"
             fontWeight="bold"
-            color="D3D3D3"
+            color="#D3D3D3"
             fontSize="xl"
           >
             <Text fontWeight={'normal'} ml={'10px'}>
@@ -132,7 +133,7 @@ const Principles = () => {
           <ListItem
             listStyleType="decimal"
             fontWeight="bold"
-            color="D3D3D3"
+            color="#D3D3D3"
             fontSize="xl"
           >
             <Text fontWeight={'normal'} ml={'10px'}>
@@ -144,7 +145,7 @@ const Principles = () => {
           <ListItem
             listStyleType="decimal"
             fontWeight="bold"
-            color="D3D3D3"
+            color="#D3D3D3"
             fontSize="xl"
           >
             <Text fontWeight={'normal'} ml={'10px'}>
@@ -152,6 +153,12 @@ const Principles = () => {
             </Text>
           </ListItem>
         </OrderedList>
+
+        <Image
+          className="kaufman__triangle rotation"
+          src={triangleImage}
+          boxSize="400px"
+        />
       </Center>
     </>
   );

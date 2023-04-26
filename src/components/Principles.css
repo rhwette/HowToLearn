@@ -1,0 +1,41 @@
+.kaufman {
+    /* this class is not used here */
+    background-color: #1f1f1f;
+    color:#F2F2F2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    z-index: 1;
+  }
+
+  .kaufman__triangle {
+    position: relative;
+    top: 0px;
+    right: 200px;
+    z-index: -1;
+  }
+
+.rotation {
+    animation: rotation 
+    20s 
+    linear
+    0s 
+    infinite 
+    normal 
+    none 
+    running;
+  }  
+
+  @keyframes rotation {
+    from {
+        transform: rotate(-15deg);
+      }
+    to {
+        transform: rotate(345deg);
+      }
+    }

@@ -41,8 +41,7 @@ const Kahan = () => {
         the skills and knowledge to be successful in school, careers and life.
       </Text>
 
-      {/* <Center> */}
-      <Stack direction="row" pt="25px" mx="100px">
+      <Stack direction="row" pt="25px" pb="150px" mx="100px">
         <Box boxSize="200px">
           <Image src={kahanImage} />
         </Box>
@@ -59,7 +58,6 @@ const Kahan = () => {
           <Image src={kahanImage} />
         </Box>
       </Stack>
-      {/* </Center> */}
     </>
   );
 };

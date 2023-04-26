@@ -9,6 +9,7 @@ import Feynman from './components/Feynman';
 import FactsAndFigs from './components/FactsAndFigs';
 import Kahan from './components/Kahan';
 import Principles from './components/Principles';
+import Resources from './components/Resources';
 
 function App() {
   return (
@@ -68,9 +69,10 @@ function App() {
           <Principles />
         </GridItem>
 
-        <GridItem area="resources" bg="red">
-          resources
+        <GridItem area="resources" bg="#D3D3D3">
+          <Resources />
         </GridItem>
+
         <GridItem area="footer" bg="black">
           footer
         </GridItem>
